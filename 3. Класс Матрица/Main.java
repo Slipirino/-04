@@ -1,13 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        double ar1[][] =
-                       {{7, 2, 1},
-                        {3, 6, 1},
-                        {5, 1, 4}};
-        double ar2[][] =
-                       {{2, 3, 5},
-                        {1, 2, 1},
-                        {1, 3, 4}};
+        double ar1[][] = {{7, 8, 6}, {4, 3, 7}, {1, 6, 3}};
+        double ar2[][] = {{3, 3, 7}, {4, 1, 3}, {7, 5, 2}};
         int ar5 = 2;
 
         double[][] arAdd = Матрица.matrix_add(ar1, ar2);
